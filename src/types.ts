@@ -1,5 +1,3 @@
-import { MatchResult } from "./MatchResult";
-
 export type MatchData = [
 	Date,
 	string,
@@ -9,3 +7,9 @@ export type MatchData = [
 	MatchResult,
 	string
 ];
+
+export enum MatchResult {
+	HomeWin = "H",
+	AwayWin = "A",
+	Draw = "D",
+}
